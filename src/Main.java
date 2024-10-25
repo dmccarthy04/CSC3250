@@ -43,6 +43,7 @@ public class Main {
         Stuff<Test> stuffTest = new Stuff<Test>();
         stuffTest.setThing(new Test(5));
         stuffTest.print();
+        stuffTest.print();
         System.out.println(stuffTest.getThing().getX());
     }
 }
